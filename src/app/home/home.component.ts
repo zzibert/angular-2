@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   homeTitle = 'this is the home title'
   myString = 'i like pujo!'
 
+  alertMe(val){
+    alert(val);
+  }
+
   constructor() { }
 
   ngOnInit() {
