@@ -9,6 +9,10 @@ export class HomeComponent implements OnInit {
 
   homeTitle = 'this is the home title'
   myString = 'i like pujo!'
+  ninja = {
+    name: "Yoshi",
+    belt: "Black"
+  }
 
   alertMe(val){
     alert(val);
