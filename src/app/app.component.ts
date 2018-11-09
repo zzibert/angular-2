@@ -12,4 +12,8 @@ export class AppComponent {
     name: 'Ryu',
     belt: "Red"
   }
+  yell(e){
+    console.log(e);
+    alert("I am Yelling");
+  }
 }
